@@ -25,8 +25,7 @@ assumed to have:
 4. no line has only spaces on it
 
 Return: a list of lists. Each inner list will have two elements:
-1. the sequence identifier, i.e., the characters between the leading ">"
-   and the first space
+1. the sequence identifier, i.e., the characters between the leading ">" and the first space
 2. the sequence, a single string of all the letters with no line terminators
 '''
 def readfasta(filename):
