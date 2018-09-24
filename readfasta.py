@@ -61,4 +61,5 @@ def readfasta(filename):
             
     # we're done, so clean up, terminate the last sequence, and return
     resultList.append([label, sequence])
+    #print(resultList)
     return resultList
